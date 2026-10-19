@@ -1,0 +1,15 @@
+{
+  "name": "frame-infinite-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check script-editor.js && node --check creative-ui.js && node --check creative-contract.js && node --check creative-api.mjs && node --check server.mjs && node --check hosted-api.mjs && node --check api/index.mjs && node --check scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  }
+}
